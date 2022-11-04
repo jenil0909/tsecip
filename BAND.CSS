@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  padding: 1rem;
+  display: grid;
+  place-content: center;
+  min-height: 100dvh;
+  color: #333;
+  font-size: 1.25rem;
+  font-family: 'Source Serif Pro';
+}
+
+form {
+  padding: 2rem;
+  border: 3px solid currentColor;
+}
+
+label,
+label div {
+  display: block;
+}
+
+
+label div {
+  margin-top: 0.5rem;
+}
+
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+}
+
+button {
+  margin-top: 3rem;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid;
+  padding-left: 0.125rem;
+  max-width: 6em;
+}
+
+* + * {
+  margin-top: 3rem;
+}
+
+#output p {
+  margin: 0;
+}

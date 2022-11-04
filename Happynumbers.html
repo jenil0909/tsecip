@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <body>
+<script>
+function isHappy(){
+let a= prompt("value")
+	var sum=0;
+	var x=[10];
+	while(a.length!=0)
+	{
+		var rem=a%10;
+		x.push(rem);
+		a=a/10;
+	}
+	for(var i=0;i<x.length;i++)
+	{
+		sum=sum+x[i]**2;
+	}
+	isHappy(sum);
+
+}
+console.log(isHappy());
+</script>
+        </body>
+    </head>
+</html>
